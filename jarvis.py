@@ -10,7 +10,7 @@ import musicLibrary
 
 
 newsapi = "a96f89a71c84e259fbfee8f424225ad1"
-openai_api_key = "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"
+openai_api_key = "your key"
 
 
 
@@ -82,5 +82,6 @@ def processCommand(c):
             speak("Sorry, I could not fetch the news")
     else:
         output = aiProcess
+
 
 
